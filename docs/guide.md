@@ -1,23 +1,38 @@
-# Guide File
+# How to use
 
-text
+Create a concept file named `<Concept>.md` in the `docs` folder. This will create an entry on the sidebar for the filename. Format the file using markdown.
 
-## Heading 2
+## Code blocks
 
-text
-
-## Heading 2
-
-text
-
-### Heading 3
-
-text
-text
-text
+Create a codeblock using the notation below, or an `inline code` like so:
 
 ```python
 items = ["hat", "cat"]
 for (index, item) in enumerate(items):
   print("Item in index number {} is {}".format(index, item))
 ```
+
+## Previewing
+
+To preview the file, `cd` into the docs directory and run:
+
+`docsify serve`
+
+to deploy the localhost version of the site. Preview it using the given localhost link.
+
+## Deploying
+
+Once you are happy with the changes, push the changes onto the Github repository:
+
+## Link to site
+
+The site is hosted on Github via the following link:
+
+https://github.com/abhiyanbeta/python_concepts
+
+## Sources
+
+This site was created using Docsify and the theme used was Themeable. For documentation, visit:
+
+1. https://docsify.js.org/#/
+1. https://jhildenbiddle.github.io/docsify-themeable/#/
