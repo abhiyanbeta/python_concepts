@@ -28,7 +28,11 @@ Once you are happy with the changes, push the changes onto the Github repository
 
 The site is hosted on Github via the following link:
 
-https://github.com/abhiyanbeta/python_concepts
+https://abhiyanbeta.github.io/python_concepts/
+
+My repository containing the source files are here:
+
+https://github.com/abhiyanbeta/python_concepts/
 
 ## Sources
 
