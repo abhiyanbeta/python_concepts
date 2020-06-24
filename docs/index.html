@@ -1,3 +1,11 @@
+<!--
+I built this documentation type site using Docsify, which I'll link to below:
+
+Docsify documentation: https://docsify.js.org/#/quickstart
+Theme documentation: https://jhildenbiddle.github.io/docsify-themeable/#/
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,17 +14,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <!-- Theme: Docsify Themeable Defaults -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: 'Python concepts by @abhiyanbeta',
-      repo: 'python_docsify',
-      loadSidebar: true
+      // repo: 'abhiyanbeta/python_concepts', //adds link to my repo with Github logo on top right
+      loadSidebar: true, // for sidebar navigation
+      readyTransition: true,
+      responsiveTables: true
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- Theme plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
 </body>
 </html>
