@@ -4,13 +4,35 @@ Create a concept file named `<Concept>.md` in the `docs` folder. This will creat
 
 ## Code blocks
 
-Create a codeblock using the notation below, or an `inline code` like so:
+Create a code block using the syntax below, or an `inline code` like so:
 
 ```python
 items = ["hat", "cat"]
 for (index, item) in enumerate(items):
   print("Item in index number {} is {}".format(index, item))
 ```
+
+## Creating tabs
+
+Create tabs by using the syntax below:
+
+<!-- tabs:start -->
+
+#### ** English **
+
+Hello!
+
+#### ** French **
+
+Bonjour!
+
+#### ** Nepalese **
+
+Namaste!
+
+<!-- tabs:end -->
+
+Documentation for tabs: https://jhildenbiddle.github.io/docsify-tabs/#/
 
 ## Previewing
 
@@ -40,3 +62,4 @@ This site was created using Docsify and the theme used was Themeable. For docume
 
 1. https://docsify.js.org/#/
 1. https://jhildenbiddle.github.io/docsify-themeable/#/
+1. https://jhildenbiddle.github.io/docsify-tabs/#/

@@ -1,4 +1,4 @@
-# Python concepts
+# Home
 
 Searchable database of python concepts that I learned. Use the search or sidebar to get started.
 

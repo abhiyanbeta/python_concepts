@@ -1,2 +1,3 @@
 [Home](/)
-[Guide](guide.md)
+[Guide](Guide.md)
+[Markdown](Markdown.md)
