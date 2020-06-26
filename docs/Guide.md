@@ -1,6 +1,6 @@
 # How to use
 
-Create a concept file named `<Concept>.md` in the `docs` folder. This will create an entry on the sidebar for the filename. Format the file using markdown.
+Create a concept file named `<Concept>.md` in the `docs` folder. This will create an entry on the sidebar for the filename. Format the file using markdown. Also create an entry in `_sidebar.md` to make the page visible.
 
 ## Code blocks
 
