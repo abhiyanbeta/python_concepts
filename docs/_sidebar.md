@@ -3,3 +3,5 @@
 [Markdown](Markdown.md)
 [Source](Source.md)
 [If statements](If_statements.md)
+[Virtual environment](Virtual_environment.md)
+[Pip](Pip.md)
